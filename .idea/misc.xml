@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/a_android_maktab/hw6/hw6problem3/app/src/main/res/drawable/shape_circle.xml" value="0.2075" />
+        <entry key="..\:/a_android_maktab/hw6/hw6problem3/app/src/main/res/drawable/shape_circle_strawberry.xml" value="0.1" />
         <entry key="..\:/a_android_maktab/hw6/hw6problem3/app/src/main/res/drawable/shape_line.xml" value="0.2075" />
-        <entry key="..\:/a_android_maktab/hw6/hw6problem3/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/a_android_maktab/hw6/hw6problem3/app/src/main/res/layout/activity_main.xml" value="0.22" />
       </map>
     </option>
   </component>
