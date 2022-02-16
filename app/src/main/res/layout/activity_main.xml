@@ -46,9 +46,10 @@
         android:id="@+id/imageView10"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="8dp"
         android:backgroundTint="#8C8787"
         app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/button"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
         app:srcCompat="@drawable/shape_line" />
@@ -69,7 +70,7 @@
         android:id="@+id/imageView8"
         android:layout_width="66dp"
         android:layout_height="66dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="12dp"
         android:foreground="@drawable/strawberry3"
         android:foregroundGravity="center"
         app:layout_constraintEnd_toStartOf="@+id/imageView9"
@@ -117,9 +118,10 @@
         android:id="@+id/imageView4"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:backgroundTint="#8C8787"
         app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/button"
         app:layout_constraintTop_toBottomOf="@+id/button"
         app:srcCompat="@drawable/shape_line" />
@@ -233,6 +235,23 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.94" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:isScrollContainer="true"
+        android:text="@string/str_description_film"
+        android:textColor="#373737"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="1.0"
+        tools:text="Text View" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
